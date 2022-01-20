@@ -22,3 +22,40 @@ code {
   color: white;
   
 }
+
+.header__right{
+  text-align:right ;
+}
+
+.auth{
+  display: inline-block;
+  margin-right: 25px;
+}
+a{
+  color: white;
+}
+a:hover{
+  text-decoration: none;
+  color: white;
+}
+
+.a::after{
+  content: "/";
+  position: absolute;
+  right: 8px;
+
+}
+.a:last-child::after{
+  display: none;
+}
+
+.widget{
+  display: inline-block;
+}
+
+li{
+  list-style-type: none;
+  display: inline-block;
+  color: white;
+  margin-right: 20px;
+}
