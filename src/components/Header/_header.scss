@@ -1,0 +1,48 @@
+
+$my-color:white;
+
+.header {
+  background: #282c34;
+  box-shadow: 0px 5px 10px lightslategray;
+}
+
+.header__logo {
+  padding: 10px 20px;
+  color: $my-color;
+}
+
+.header__right {
+  text-align: right;
+}
+
+.auth {
+  display: inline-block;
+  margin-right: 25px;
+  a {
+    color: $my-color;
+    &:hover {
+      text-decoration: none;
+      color: $my-color;
+      margin-top: 0.5rem;
+    }
+  }
+}
+a::after {
+  content: "";
+  position: absolute;
+  right: 8px;
+}
+a:last-child::after {
+  display: none;
+}
+
+.widget {
+  display: inline-block;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  color: $my-color;
+  margin-right: 20px;
+}
