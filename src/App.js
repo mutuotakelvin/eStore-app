@@ -14,11 +14,11 @@ function App() {
             <div className="input-group">
               <input type="text" className="form-control">
               </input>
-            </div>
             <div className="input-group-append">
               <button className="btn btn-light">
                 <i className="fa fa-search"></i>
               </button>
+            </div>
             </div>
           </div>
         </div>
