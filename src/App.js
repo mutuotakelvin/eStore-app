@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   return (
-    <header>
+    <header className="header">
       <div className="container-fluid">
         <div className="row">
           <div className="col-xs-3 col-lg-2">
