@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header{
+  background: #282c34;
+  box-shadow: 0px 5px 10px lightslategray;
+}
